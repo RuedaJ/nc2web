@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { motion } from 'framer-motion'
 import dynamic from 'next/dynamic'
 import Dashboard from '../components/Dashboard'
-import ExportButtons from '@/components/ExportButtons'
+import ExportButtons from '../components/ExportButtons'
 
 const MapWrapper = dynamic(() => import('../components/Map'), { ssr: false })
 
