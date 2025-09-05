@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import { motion } from 'framer-motion'
 import dynamic from 'next/dynamic'
-import Dashboard from '@/components/Dashboard'
+import Dashboard from '../components/Dashboard'
 import ExportButtons from '@/components/ExportButtons'
 
-const MapWrapper = dynamic(() => import('@/components/Map'), { ssr: false })
+const MapWrapper = dynamic(() => import('../components/Map'), { ssr: false })
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
