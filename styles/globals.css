@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth, clean aesthetic */
+html { scroll-behavior: smooth; }
